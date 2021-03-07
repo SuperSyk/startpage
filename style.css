@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&display=swap');
+
+/* General Styling */
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(./images/alena-aenami-eclipse-1k.jpg);
+    background-position: center;
+    color: white;
+    text-shadow: black 3px 3px 10px;
+}
+h1 {
+    margin: auto;
+    margin-top: 15%;
+    text-align: center;
+
+    font-size: 64px;
+    font-weight: 900;
+}
+h2 {
+    font-weight: 700;
+    font-size: 26px;
+}
+button {
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+
+    font-size: 26px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    padding-left: 0%;
+    padding-top: 0%;
+
+    height: 150px;
+    overflow: overlay;
+}
+img {
+    height: 40px;
+    width: 40px;
+    filter: invert(100%) sepia(95%) saturate(0%) hue-rotate(281deg) brightness(107%) contrast(106%);
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Specific Styling */
+.grid {
+    display: flex;
+    text-align: center;
+}
+.piece {
+    flex: 1;
+    padding: 0%;
+}
+
+/* Hover Styles */
+a:hover {
+    color: blue;
+}
+li:hover {
+    color: blue;
+}
+img:hover {
+    filter: invert(8%) sepia(100%) saturate(7470%) hue-rotate(248deg) brightness(93%) contrast(144%);
+}
